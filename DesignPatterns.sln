@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.DP", "Creational\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy.DP", "Behavioral\Strategy.DP\Strategy.DP.csproj", "{8EE563AF-6A0A-4AFB-A816-9CF301186CA5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{DF42B2BD-B16D-4A4D-88DE-E75BB002C7F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.DP", "Structural\Decorator.DP\Decorator.DP.csproj", "{53C524E0-0B96-DB29-C6B6-25353595EB36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{8EE563AF-6A0A-4AFB-A816-9CF301186CA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EE563AF-6A0A-4AFB-A816-9CF301186CA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EE563AF-6A0A-4AFB-A816-9CF301186CA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53C524E0-0B96-DB29-C6B6-25353595EB36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53C524E0-0B96-DB29-C6B6-25353595EB36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53C524E0-0B96-DB29-C6B6-25353595EB36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53C524E0-0B96-DB29-C6B6-25353595EB36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{8C943C6E-1495-37BC-3D5E-16D6D75E3CD4} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{8EE563AF-6A0A-4AFB-A816-9CF301186CA5} = {585A7FA9-20C7-437D-B9A1-EB6915A5C85B}
+		{53C524E0-0B96-DB29-C6B6-25353595EB36} = {DF42B2BD-B16D-4A4D-88DE-E75BB002C7F2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {779CB626-D782-48C2-A09B-4C9E631BED58}
