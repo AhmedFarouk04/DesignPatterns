@@ -1,4 +1,6 @@
-﻿class Program
+﻿using DI.Wrong;
+
+class Program
 {
     static void Main()
     {
