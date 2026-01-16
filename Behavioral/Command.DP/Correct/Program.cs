@@ -1,7 +1,7 @@
 ﻿using Command.DP;
 using Command.DP.Correct.Commands;
 using Command.DP.Handlers;
-using Command.DP.Models;
+using Command.DP.Correct.Models;
 
 Console.WriteLine("=== Command Pattern Demo ===");
 

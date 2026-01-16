@@ -1,0 +1,6 @@
+﻿namespace Mediator.DP.Corret.Models;
+
+public class Order
+{
+    public int Id { get; set; }
+}
